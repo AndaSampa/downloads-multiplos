@@ -1,0 +1,263 @@
+1724263229353	geckodriver	INFO	Listening on 127.0.0.1:51278
+1724263459250	geckodriver	INFO	Listening on 127.0.0.1:51427
+1724263459761	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4v/rx_d3gzj4991_pw5_skhl0980000gn/T/rust_mozprofilevuQIL5"
+WebDriver BiDi listening on ws://127.0.0.1:51428
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+1724264447740	geckodriver	INFO	Listening on 127.0.0.1:51908
+1724264448252	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4v/rx_d3gzj4991_pw5_skhl0980000gn/T/rust_mozprofilefElTaN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724264448491	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1724264448658	Marionette	INFO	Listening on port 51917
+WebDriver BiDi listening on ws://127.0.0.1:51909
+1724264448786	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+1724264478821	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:void(0);'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 719"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:719:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:566:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:467:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:431:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2211:33
+addAllSources@resource://devtools/server/actors/thread.js:1531:14
+watch@resource://devtools/server/actors/resources/sources.js:79:17
+watchResources@resource://devtools/server/actors/resources/index.js:342:15
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:19:21
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/base-target-actor.js:73:23
+#addOrSetSessionDataEntry@resource://devtools/server/connectors/js-process-actor/DevToolsProcessChild.sys.mjs:389:21
+receiveMessage@resource://devtools/server/connectors/js-process-actor/DevToolsProcessChild.sys.mjs:314:46
+Line: 719, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:downloadLotes('Lotes','Shapefile','SIRGAS_SHP_LOTES_01_AGUA_RASA');'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 719"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:719:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:566:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:467:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:431:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2211:33
+addAllSources@resource://devtools/server/actors/thread.js:1531:14
+watch@resource://devtools/server/actors/resources/sources.js:79:17
+watchResources@resource://devtools/server/actors/resources/index.js:342:15
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:19:21
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/base-target-actor.js:73:23
+#addOrSetSessionDataEntry@resource://devtools/server/connectors/js-process-actor/DevToolsProcessChild.sys.mjs:389:21
+receiveMessage@resource://devtools/server/connectors/js-process-actor/DevToolsProcessChild.sys.mjs:314:46
+Line: 719, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:downloadLotes('Lotes','Shapefile','SIRGAS_SHP_LOTES_09_BOM_RETIRO');'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 719"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:719:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:566:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:467:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:431:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2211:33
+addAllSources@resource://devtools/server/actors/thread.js:1531:14
+watch@resource://devtools/server/actors/resources/sources.js:79:17
+watchResources@resource://devtools/server/actors/resources/index.js:342:15
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:19:21
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/base-target-actor.js:73:23
+#addOrSetSessionDataEntry@resource://devtools/server/connectors/js-process-actor/DevToolsProcessChild.sys.mjs:389:21
+receiveMessage@resource://devtools/server/connectors/js-process-actor/DevToolsProcessChild.sys.mjs:314:46
+Line: 719, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:downloadLotes('Lotes','Shapefile','SIRGAS_SHP_LOTES_17_CAMPO_LIMPO');'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 719"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:719:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:566:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:467:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:431:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2211:33
+addAllSources@resource://devtools/server/actors/thread.js:1531:14
+watch@resource://devtools/server/actors/resources/sources.js:79:17
+watchResources@resource://devtools/server/actors/resources/index.js:342:15
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:19:21
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/base-target-actor.js:73:23
+#addOrSetSessionDataEntry@resource://devtools/server/connectors/js-process-actor/DevToolsProcessChild.sys.mjs:389:21
+receiveMessage@resource://devtools/server/connectors/js-process-actor/DevToolsProcessChild.sys.mjs:314:46
+Line: 719, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:downloadLotes('Lotes','Shapefile','SIRGAS_SHP_LOTES_25_CIDADE_TIRADENTES');'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 719"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:719:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:566:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:467:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:431:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2211:33
+addAllSources@resource://devtools/server/actors/thread.js:1531:14
+watch@resource://devtools/server/actors/resources/sources.js:79:17
+watchResources@resource://devtools/server/actors/resources/index.js:342:15
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:19:21
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/base-target-actor.js:73:23
+#addOrSetSessionDataEntry@resource://devtools/server/connectors/js-process-actor/DevToolsProcessChild.sys.mjs:389:21
+receiveMessage@resource://devtools/server/connectors/js-process-actor/DevToolsProcessChild.sys.mjs:314:46
+Line: 719, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:downloadLotes('Lotes','Shapefile','SIRGAS_SHP_LOTES_33_IGUATEMI');'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 719"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:719:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:566:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:467:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:431:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2211:33
+addAllSources@resource://devtools/server/actors/thread.js:1531:14
+watch@resource://devtools/server/actors/resources/sources.js:79:17
+watchResources@resource://devtools/server/actors/resources/index.js:342:15
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:19:21
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/base-target-actor.js:73:23
+#addOrSetSessionDataEntry@resource://devtools/server/connectors/js-process-actor/DevToolsProcessChild.sys.mjs:389:21
+receiveMessage@resource://devtools/server/connectors/js-process-actor/DevToolsProcessChild.sys.mjs:314:46
+Line: 719, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:downloadLotes('Lotes','Shapefile','SIRGAS_SHP_LOTES_41_JAGUARE');'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 719"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:719:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:566:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:467:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:431:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2211:33
+addAllSources@resource://devtools/server/actors/thread.js:1531:14
+watch@resource://devtools/server/actors/resources/sources.js:79:17
+watchResources@resource://devtools/server/actors/resources/index.js:342:15
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:19:21
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/base-target-actor.js:73:23
+#addOrSetSessionDataEntry@resource://devtools/server/connectors/js-process-actor/DevToolsProcessChild.sys.mjs:389:21
+receiveMessage@resource://devtools/server/connectors/js-process-actor/DevToolsProcessChild.sys.mjs:314:46
+Line: 719, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:downloadLotes('Lotes','Shapefile','SIRGAS_SHP_LOTES_49_LIBERDADE');'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 719"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:719:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:566:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:467:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:431:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2211:33
+addAllSources@resource://devtools/server/actors/thread.js:1531:14
+watch@resource://devtools/server/actors/resources/sources.js:79:17
+watchResources@resource://devtools/server/actors/resources/index.js:342:15
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:19:21
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/base-target-actor.js:73:23
+#addOrSetSessionDataEntry@resource://devtools/server/connectors/js-process-actor/DevToolsProcessChild.sys.mjs:389:21
+receiveMessage@resource://devtools/server/connectors/js-process-actor/DevToolsProcessChild.sys.mjs:314:46
+Line: 719, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:downloadLotes('Lotes','Shapefile','SIRGAS_SHP_LOTES_57_PARQUE_DO_CARMO');'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 719"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:719:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:566:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:467:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:431:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2211:33
+addAllSources@resource://devtools/server/actors/thread.js:1531:14
+watch@resource://devtools/server/actors/resources/sources.js:79:17
+watchResources@resource://devtools/server/actors/resources/index.js:342:15
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:19:21
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/base-target-actor.js:73:23
+#addOrSetSessionDataEntry@resource://devtools/server/connectors/js-process-actor/DevToolsProcessChild.sys.mjs:389:21
+receiveMessage@resource://devtools/server/connectors/js-process-actor/DevToolsProcessChild.sys.mjs:314:46
+Line: 719, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:downloadLotes('Lotes','Shapefile','SIRGAS_SHP_LOTES_65_RAPOSO_TAVARES');'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 719"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:719:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:566:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:467:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:431:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2211:33
+addAllSources@resource://devtools/server/actors/thread.js:1531:14
+watch@resource://devtools/server/actors/resources/sources.js:79:17
+watchResources@resource://devtools/server/actors/resources/index.js:342:15
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:19:21
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/base-target-actor.js:73:23
+#addOrSetSessionDataEntry@resource://devtools/server/connectors/js-process-actor/DevToolsProcessChild.sys.mjs:389:21
+receiveMessage@resource://devtools/server/connectors/js-process-actor/DevToolsProcessChild.sys.mjs:314:46
+Line: 719, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:downloadLotes('Lotes','Shapefile','SIRGAS_SHP_LOTES_73_SAO_MATEUS');'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 719"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:719:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:566:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:467:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:431:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2211:33
+addAllSources@resource://devtools/server/actors/thread.js:1531:14
+watch@resource://devtools/server/actors/resources/sources.js:79:17
+watchResources@resource://devtools/server/actors/resources/index.js:342:15
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:19:21
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/base-target-actor.js:73:23
+#addOrSetSessionDataEntry@resource://devtools/server/connectors/js-process-actor/DevToolsProcessChild.sys.mjs:389:21
+receiveMessage@resource://devtools/server/connectors/js-process-actor/DevToolsProcessChild.sys.mjs:314:46
+Line: 719, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:downloadLotes('Lotes','Shapefile','SIRGAS_SHP_LOTES_81_TREMEMBE');'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 719"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:719:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:566:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:467:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:431:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2211:33
+addAllSources@resource://devtools/server/actors/thread.js:1531:14
+watch@resource://devtools/server/actors/resources/sources.js:79:17
+watchResources@resource://devtools/server/actors/resources/index.js:342:15
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:19:21
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/base-target-actor.js:73:23
+#addOrSetSessionDataEntry@resource://devtools/server/connectors/js-process-actor/DevToolsProcessChild.sys.mjs:389:21
+receiveMessage@resource://devtools/server/connectors/js-process-actor/DevToolsProcessChild.sys.mjs:314:46
+Line: 719, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:downloadLotes('Lotes','Shapefile','SIRGAS_SHP_LOTES_89_VILA_MARIA');'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 719"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:719:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:566:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:467:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:431:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2211:33
+addAllSources@resource://devtools/server/actors/thread.js:1531:14
+watch@resource://devtools/server/actors/resources/sources.js:79:17
+watchResources@resource://devtools/server/actors/resources/index.js:342:15
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:19:21
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/base-target-actor.js:73:23
+#addOrSetSessionDataEntry@resource://devtools/server/connectors/js-process-actor/DevToolsProcessChild.sys.mjs:389:21
+receiveMessage@resource://devtools/server/connectors/js-process-actor/DevToolsProcessChild.sys.mjs:314:46
+Line: 719, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 719: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:void(0);'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 719: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:downloadLotes('Lotes','Shapefile','SIRGAS_SHP_LOTES_01_AGUA_RASA');'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 719: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:downloadLotes('Lotes','Shapefile','SIRGAS_SHP_LOTES_09_BOM_RETIRO');'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 719: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:downloadLotes('Lotes','Shapefile','SIRGAS_SHP_LOTES_17_CAMPO_LIMPO');'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 719: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:downloadLotes('Lotes','Shapefile','SIRGAS_SHP_LOTES_25_CIDADE_TIRADENTES');'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 719: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:downloadLotes('Lotes','Shapefile','SIRGAS_SHP_LOTES_33_IGUATEMI');'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 719: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:downloadLotes('Lotes','Shapefile','SIRGAS_SHP_LOTES_41_JAGUARE');'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 719: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:downloadLotes('Lotes','Shapefile','SIRGAS_SHP_LOTES_49_LIBERDADE');'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 719: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:downloadLotes('Lotes','Shapefile','SIRGAS_SHP_LOTES_57_PARQUE_DO_CARMO');'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 719: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:downloadLotes('Lotes','Shapefile','SIRGAS_SHP_LOTES_65_RAPOSO_TAVARES');'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 719: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:downloadLotes('Lotes','Shapefile','SIRGAS_SHP_LOTES_73_SAO_MATEUS');'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 719: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:downloadLotes('Lotes','Shapefile','SIRGAS_SHP_LOTES_81_TREMEMBE');'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 719: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:downloadLotes('Lotes','Shapefile','SIRGAS_SHP_LOTES_89_VILA_MARIA');'
+JavaScript error: https://geosampa.prefeitura.sp.gov.br/js/OpenLayers.js, line 486: TypeError: this.layer is null
+JavaScript error: https://geosampa.prefeitura.sp.gov.br/js/OpenLayers.js, line 486: TypeError: this.layer is null
+1724265252792	geckodriver	INFO	Listening on 127.0.0.1:53177
+1724265253305	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4v/rx_d3gzj4991_pw5_skhl0980000gn/T/rust_mozprofile04Uvzb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724265253510	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1724265253690	Marionette	INFO	Listening on port 53185
+WebDriver BiDi listening on ws://127.0.0.1:53178
+1724265253811	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+1724265284298	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3590: TypeError: this._windows[aWindow.__SSi] is undefined
+1724265757136	Marionette	INFO	Stopped listening on port 53185
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1724265770639	geckodriver	INFO	Listening on 127.0.0.1:53418
+1724265771152	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4v/rx_d3gzj4991_pw5_skhl0980000gn/T/rust_mozprofileEaeXDa"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724265771352	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1724265771528	Marionette	INFO	Listening on port 53426
+WebDriver BiDi listening on ws://127.0.0.1:53419
+1724265771658	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+1724265802369	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1724266401642	geckodriver	INFO	Listening on 127.0.0.1:53663
+1724266402155	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4v/rx_d3gzj4991_pw5_skhl0980000gn/T/rust_mozprofileeRZVW9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724266402354	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1724266402539	Marionette	INFO	Listening on port 53671
+WebDriver BiDi listening on ws://127.0.0.1:53664
+1724266402666	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+1724266433025	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
